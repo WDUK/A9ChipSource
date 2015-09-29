@@ -14,9 +14,6 @@
 		237C42A21BBB3B7D00F9D81F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 237C42A11BBB3B7D00F9D81F /* Assets.xcassets */; };
 		237C42A51BBB3B7D00F9D81F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 237C42A31BBB3B7D00F9D81F /* LaunchScreen.storyboard */; };
 		237C42AD1BBB3BE600F9D81F /* libMobileGestalt.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 237C42AC1BBB3BE600F9D81F /* libMobileGestalt.tbd */; };
-		23ADD7C31BBB3E980068EE74 /* Icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = 23ADD7C01BBB3E980068EE74 /* Icon-76.png */; };
-		23ADD7C41BBB3E980068EE74 /* Icon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 23ADD7C11BBB3E980068EE74 /* Icon-76@2x.png */; };
-		23ADD7C51BBB3E980068EE74 /* Icon-76@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 23ADD7C21BBB3E980068EE74 /* Icon-76@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,9 +28,6 @@
 		237C42A41BBB3B7D00F9D81F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		237C42A61BBB3B7D00F9D81F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		237C42AC1BBB3BE600F9D81F /* libMobileGestalt.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libMobileGestalt.tbd; path = usr/lib/libMobileGestalt.tbd; sourceTree = SDKROOT; };
-		23ADD7C01BBB3E980068EE74 /* Icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76.png"; sourceTree = "<group>"; };
-		23ADD7C11BBB3E980068EE74 /* Icon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76@2x.png"; sourceTree = "<group>"; };
-		23ADD7C21BBB3E980068EE74 /* Icon-76@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,9 +77,6 @@
 		237C42951BBB3B7D00F9D81F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				23ADD7C01BBB3E980068EE74 /* Icon-76.png */,
-				23ADD7C11BBB3E980068EE74 /* Icon-76@2x.png */,
-				23ADD7C21BBB3E980068EE74 /* Icon-76@3x.png */,
 				237C42AC1BBB3BE600F9D81F /* libMobileGestalt.tbd */,
 				237C42961BBB3B7D00F9D81F /* main.m */,
 			);
@@ -150,11 +141,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				237C42A51BBB3B7D00F9D81F /* LaunchScreen.storyboard in Resources */,
-				23ADD7C31BBB3E980068EE74 /* Icon-76.png in Resources */,
 				237C42A21BBB3B7D00F9D81F /* Assets.xcassets in Resources */,
-				23ADD7C41BBB3E980068EE74 /* Icon-76@2x.png in Resources */,
 				237C42A01BBB3B7D00F9D81F /* Main.storyboard in Resources */,
-				23ADD7C51BBB3E980068EE74 /* Icon-76@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
