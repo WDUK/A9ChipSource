@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9046" systemVersion="15A282b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9035"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A9 Chip Source" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WD5-OC-b5G">
+                                <rect key="frame" x="240" y="70" width="120" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Unknown Chip" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M7O-NC-2HQ">
+                                <rect key="frame" x="202" y="180" width="196" height="36"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Unknown Manufacturer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="baC-4u-Qnf">
+                                <rect key="frame" x="200" y="246" width="200" height="23"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Icon-76.png" translatesAutoresizingMaskIntoConstraints="NO" id="d9l-jx-pBe">
+                                <rect key="frame" x="262" y="474" width="76" height="76"/>
+                                <animations/>
+                            </imageView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="d9l-jx-pBe" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4JO-rv-IJb"/>
+                            <constraint firstItem="WD5-OC-b5G" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="50" id="DfQ-Yh-zby"/>
+                            <constraint firstItem="WD5-OC-b5G" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="H2E-a3-dDg"/>
+                            <constraint firstItem="baC-4u-Qnf" firstAttribute="top" secondItem="M7O-NC-2HQ" secondAttribute="bottom" constant="30" id="OGu-eP-tYu"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="d9l-jx-pBe" secondAttribute="bottom" constant="50" id="UVA-lm-Hvk"/>
+                            <constraint firstItem="baC-4u-Qnf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bXW-84-2Nq"/>
+                            <constraint firstItem="M7O-NC-2HQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pSM-NH-CBK"/>
+                            <constraint firstItem="M7O-NC-2HQ" firstAttribute="top" secondItem="WD5-OC-b5G" secondAttribute="bottom" constant="89" id="qF5-9c-qco"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="chipLabel" destination="M7O-NC-2HQ" id="oDB-t9-QdI"/>
+                        <outlet property="manufactureLabel" destination="baC-4u-Qnf" id="apt-e7-U7n"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="305" y="257"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Icon-76.png" width="76" height="76"/>
+    </resources>
+</document>
